@@ -115,7 +115,7 @@ body {
     height: 652px;
     overflow: hidden;
     position: relative;
-    background: url("../img/Group 1@2x.png") no-repeat center;
+    background: url("../img/test.jpeg") no-repeat center;
     background-size: cover;
 }
 
@@ -473,6 +473,10 @@ body {
     font-weight: 600;
     color: #838789;
 }
+.drop-down-list__li__sub {
+    margin-left: 25px;
+}
+
 
 .drop-down-list__span {
     font-weight: 500;
