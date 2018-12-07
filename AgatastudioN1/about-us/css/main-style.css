@@ -115,7 +115,7 @@ body {
     height: 652px;
     overflow: hidden;
     position: relative;
-    background: url("../img/test.jpeg") no-repeat center;
+    background: url("../img/") no-repeat center;
     background-size: cover;
 }
 
