@@ -115,7 +115,7 @@ body {
     height: 652px;
     overflow: hidden;
     position: relative;
-    background: url("../img/") no-repeat center;
+    background: url("../img/banner.jpeg") no-repeat center;
     background-size: cover;
 }
 
@@ -732,7 +732,12 @@ body {
 .promotions__item__p {
     padding: 10px 30px;
 }
-
+.img-offer {
+    padding: 30px;
+}
+.img-offer img {
+    margin-right: 32px;
+}
 .btn__promotions {
     padding: 5px 18px;
     margin-left: 375px;
