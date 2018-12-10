@@ -115,8 +115,8 @@ body {
     height: 652px;
     overflow: hidden;
     position: relative;
-    background: url("../img/banner.jpeg") no-repeat center;
-    background-size: cover;
+    background: url("../img/banner.jpg") no-repeat center, #cbcbcb;
+    background-size: auto 100%;
 }
 
 .banner__caption {
@@ -125,15 +125,14 @@ body {
     top: 293px;
     width: 405px;
     height: 92px;
-    border: 1px #DDDDDD solid;
     padding: 15px;
 }
 
 .banner__title {
     top: 12px;
     font-size: 3.2rem;
-    line-height: 1.7;
-    color: #838789;
+    line-height: 1.4;
+    color: #636363;
     font-weight: 500;
     display: inline-block;
     position: absolute;
@@ -150,11 +149,11 @@ body {
 .banner__text {
     position: absolute;
     font-size: 1.6rem;
-    color: #A9A9A9;
+    color: #828789;
     display: inline-block;
     margin-left: 40px;
-    font-weight: 500;
-    top: 64px;
+    font-weight: 600;
+    top: 59px;
     left: 15px;
 
 }
@@ -863,6 +862,8 @@ iframe {
     height: 496px;
 }
 
+/* ------------------------- OUR WORK -----------------------*/
+
 /* ------------------------- FOOTER ------------------------- */
 
 .footer {
@@ -1038,20 +1039,18 @@ iframe {
     background: #fff;
     max-width: 816px;
     width: calc(100% - 64px);
-    left: calc(50% + 32px);
-    -webkit-transform: translateX(calc(-50% - 32px));
-    -ms-transform: translateX(calc(-50% - 32px));
-    transform: translateX(calc(-50% - 32px));
-    position: fixed;
     color: #838789;
     font-size: 16px;
     max-height: calc(100% - 96px);
     overflow-y: auto;
     line-height: 2;
-    padding: 36px 36px 50px 36px;
+    padding: 36px 36px 0 36px;
     border: 1px solid #DDDDDD;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    right: 0;
+    left: 0;
+    position: fixed;
 }
 .header__5 {
     color: #838789;
@@ -1088,4 +1087,5 @@ b {
 .popup__footer {
     margin-top: 32px;
     text-align: right;
+    padding-bottom: 32px;
 }
