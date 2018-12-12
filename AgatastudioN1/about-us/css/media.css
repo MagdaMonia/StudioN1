@@ -80,7 +80,6 @@
 @media (max-width: 600px) {
     .banner {
         height: 326px;
-        background: url("../img/Group 1.png") no-repeat top center;
     }
 
     .banner__caption {

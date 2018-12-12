@@ -107,6 +107,34 @@ body {
     font-size: 1.2rem;
 }
 
+/*---------------------------- SOOCIAL MEDIA ----------------------*/
+.social-media {
+    position: absolute;
+    top: 32px;
+}
+
+.facebook__link, .instagram__link {
+    display: inline-block;
+}
+
+.facebook__img, .instagram__img {
+    width: 25px;
+}
+
+.facebook {
+    right: 30%;
+    margin-right: 20px;
+}
+
+.instagram {
+    right: 28%;
+}
+@media (max-width: 990px) {
+    .social-media {
+        top: 30px;
+    }
+}
+
 /*--------------------------------------------------*/
 
 /* ------------------------- BANNER ------------------------- */
@@ -185,6 +213,7 @@ body {
     height: 44px;
     vertical-align: top;
 }
+
 .about-us__sygnet__main {
     margin-top: 50px;
 }
@@ -306,9 +335,7 @@ body {
     max-width: 1240px;
     height: 825px;
     width: 100%;
-
     display: none;
-
 }
 
 .cursor {
@@ -435,8 +462,6 @@ body {
 }
 
 .background__item {
-    /*background: url("../img/boxes/profilaktyka-antyaning.jpeg") no-repeat center;*/
-    background: url("../img/boxes/kosmetologia-pielegnacyjna.jpeg");
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -468,14 +493,15 @@ body {
     font-size: 1.6rem;
     position: relative;
 }
+
 .drop-down-list__li__title {
     font-weight: 600;
     color: #838789;
 }
+
 .drop-down-list__li__sub {
     margin-left: 25px;
 }
-
 
 .drop-down-list__span {
     font-weight: 500;
@@ -556,7 +582,6 @@ body {
 }
 
 .row__img {
-    background: url("../img/spa-woman.jpg") no-repeat center;
     background-size: cover;
     width: 40%;
     height: 356px;
@@ -596,9 +621,11 @@ body {
     margin-bottom: 32px;
     display: inline-block;
 }
+
 .price__list .drop-down-list__li {
     padding: 8px 125px 8px 0;
 }
+
 .drop-down-list__elem p {
     background: url("../img/arrow_down_black.png") no-repeat right 18px center;
     color: #A9A9A9;
@@ -731,12 +758,15 @@ body {
 .promotions__item__p {
     padding: 10px 30px;
 }
+
 .img-offer {
     padding: 30px;
 }
+
 .img-offer img {
     margin-right: 32px;
 }
+
 .btn__promotions {
     padding: 5px 18px;
     margin-left: 375px;
@@ -764,6 +794,7 @@ body {
     list-style: square;
     margin-left: 20px;
 }
+
 .item__li__span {
     font-weight: 600;
     color: #838789;
@@ -996,11 +1027,13 @@ iframe {
     background: #F8F8F8;
     color: #F76472;
 }
+
 .box__popup__button__hair:hover {
     background: none;
     color: #A9A9A9;
     cursor: inherit;
 }
+
 .drop-down-list__margin {
     border-bottom: 1px solid #eaeaea;
 }
@@ -1052,20 +1085,27 @@ iframe {
     left: 0;
     position: fixed;
 }
+
 .header__5 {
     color: #838789;
     font-weight: 600;
     font-size: 1.8rem;
     padding: 10px 0;
 }
+
 b {
     font-weight: 500;
 }
+
 .popup__title {
     margin-top: 0;
     font-weight: 700;
     font-size: 24px;
     padding-bottom: 16px;
+}
+
+.popup__content a {
+    color: #838789;
 }
 
 .close {
