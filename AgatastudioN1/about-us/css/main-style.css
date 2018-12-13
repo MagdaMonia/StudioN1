@@ -108,9 +108,14 @@ body {
 }
 
 /*---------------------------- SOOCIAL MEDIA ----------------------*/
-.social-media {
+.social-media-all {
     position: absolute;
-    top: 32px;
+    top: 34px;
+    right: 0;
+}
+.social-media {
+    margin-left: 16px;
+    display: inline-block;
 }
 
 .facebook__link, .instagram__link {
@@ -118,17 +123,8 @@ body {
 }
 
 .facebook__img, .instagram__img {
-    width: 25px;
-    height: 25px;
-}
-
-.facebook {
-    right: 37%;
-    margin-right: 20px;
-}
-
-.instagram {
-    right: 35%;
+    width: 24px;
+    height: 24px;
 }
 @media (max-width: 1060px) {
     .facebook {
@@ -764,11 +760,32 @@ body {
 }
 
 .img-offer {
-    padding: 30px;
+    padding: 25px;
 }
 
 .img-offer img {
     margin-right: 32px;
+    max-width: 100%;
+}
+@media (max-width: 360px) {
+    .img-offer img {
+        width: 250px;
+        max-width: 100%;
+    }
+    .img-offer {
+        padding: 0;
+    }
+
+}
+@media (max-width: 336px) {
+    .img-offer img {
+        width: 250px;
+        max-width: 100%;
+    }
+    .img-offer {
+        padding: 16px;
+    }
+
 }
 
 .btn__promotions {
@@ -889,6 +906,7 @@ body {
 
 .content__span {
     font-weight: normal;
+    overflow-wrap: break-word;
 }
 
 .content-map {
@@ -941,6 +959,7 @@ iframe {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    position: relative;
 }
 
 .menu-hamburger {
@@ -976,6 +995,9 @@ iframe {
         display: none;
     }
 
+    .social-media-all {
+        right: 41px;
+    }
 }
 
 @media (min-width: 808px) {

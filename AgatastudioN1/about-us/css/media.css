@@ -108,6 +108,7 @@
     .promotions__item-header {
         padding: 16px 16px 16px 40px;
     }
+
     .promotions__item__one {
         top: -1px;
         left: 16px;
@@ -122,6 +123,7 @@
     .column {
         width: calc(33.3333333% - 32px);
     }
+
     .column__last {
         width: calc(66.6666% - 32px);
     }
@@ -211,6 +213,7 @@
     .promotions__item__title {
         margin-right: 50px;
     }
+
     .main-content {
         padding: 0 16px;
     }
@@ -235,9 +238,12 @@
     }
 }
 
-@media (max-width: 400px) {
-    .img-offer {
+@media (max-width: 420px) {
+    .content-page__text {
         padding: 16px;
     }
-}
 
+    .content-page-border {
+        margin: 0 14px;
+    }
+}
