@@ -221,6 +221,10 @@
         width: calc(100% - 32px);
     }
 
+    .drop-down-list {
+        margin-top: 10px;
+    }
+
     .content-page-border {
         margin: 0 20px;
     }
@@ -228,6 +232,12 @@
     .content-map {
         width: 100%;
         height: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .img-offer {
+        padding: 16px;
     }
 }
 
